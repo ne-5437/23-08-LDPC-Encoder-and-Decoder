@@ -1,0 +1,76 @@
+$date
+	Tue Sep 26 23:04:12 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module gm_tb $end
+$var wire 6 ! g3 [5:0] $end
+$var wire 6 " g2 [5:0] $end
+$var wire 6 # g1 [5:0] $end
+$var reg 1 $ en $end
+$var reg 6 % h1 [5:0] $end
+$var reg 6 & h2 [5:0] $end
+$var reg 6 ' h3 [5:0] $end
+$scope module uut $end
+$var wire 1 $ en $end
+$var wire 6 ( h1 [5:0] $end
+$var wire 6 ) h2 [5:0] $end
+$var wire 6 * h3 [5:0] $end
+$var reg 6 + g1 [5:0] $end
+$var reg 6 , g2 [5:0] $end
+$var reg 6 - g3 [5:0] $end
+$var reg 3 . w1 [2:0] $end
+$var reg 3 / w2 [2:0] $end
+$var reg 3 0 w3 [2:0] $end
+$var integer 32 1 i [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b10 1
+bx 0
+bx /
+bx .
+bx100 -
+bx010 ,
+bx001 +
+bx *
+bx )
+bx (
+bx '
+bx &
+bx %
+0$
+bx001 #
+bx010 "
+bx100 !
+$end
+#1
+b10 1
+1$
+#11
+b110100 !
+b110100 -
+b11010 "
+b11010 ,
+b101001 #
+b101001 +
+b101 0
+b110 /
+b11 .
+b10 1
+b101001 '
+b101001 *
+b11010 &
+b11010 )
+b110100 %
+b110100 (
+#21

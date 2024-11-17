@@ -1,0 +1,53 @@
+$date
+	Sun Sep 24 15:25:17 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module syn_tb $end
+$var wire 3 ! o [2:0] $end
+$var reg 6 " c [5:0] $end
+$var reg 6 # h1 [5:0] $end
+$var reg 6 $ h2 [5:0] $end
+$var reg 6 % h3 [5:0] $end
+$scope module uut $end
+$var wire 6 & c [5:0] $end
+$var wire 6 ' h1 [5:0] $end
+$var wire 6 ( h2 [5:0] $end
+$var wire 6 ) h3 [5:0] $end
+$var wire 3 * o [2:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 *
+b101001 )
+b11010 (
+b110100 '
+b0 &
+b101001 %
+b11010 $
+b110100 #
+b0 "
+b0 !
+$end
+#10
+b0 !
+b0 *
+b1011 "
+b1011 &
+#20
+b0 !
+b0 *
+b101110 "
+b101110 &
+#30
+b10 !
+b10 *
+b110001 "
+b110001 &
+#40
